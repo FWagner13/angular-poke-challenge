@@ -42,7 +42,7 @@ export class PokeViewComponent implements OnInit {
 
   ngOnInit() {
     this.pokeListService.getIsViewingPoke().subscribe((bool: boolean) => this.isViewingPoke = bool);
-    this.pokeListService.getViewingPokeParams().subscribe(params => this.viewingPokeParams = params);
+    this.pokeListService.getViewingPokeParams().subscribe((params: any) => this.viewingPokeParams = params);
   }
 
 }
