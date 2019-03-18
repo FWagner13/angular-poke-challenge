@@ -1,0 +1,15 @@
+<div class="poke=view container" *ngIf="isViewingPoke">
+  <div class="d-flex align-items-center justify-content-center">
+    <div class="poke-img">
+      <img src="{{viewingPokeParams.sprites.front_default}}">
+    </div>
+
+    <h2>{{viewingPokeParams.name | titlecase}}</h2>
+  </div>
+
+  <div class="back-button d-flex align-items-center justify-content-center no-select" (click)="unsubscribePoke()">
+    <h5>Voltar</h5>
+  </div>
+
+
+</div>

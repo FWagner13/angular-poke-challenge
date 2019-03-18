@@ -1,0 +1,9 @@
+<div class="poke-list container" *ngIf="!viewingPoke">
+  <div class="row card-group">
+    <div class="poke-list-repeat col-3" *ngFor="let pokemon of activeList; let i = index">
+      <div class="poke-card card d-flex justify-content-center" (click)="subscribePoke(pokemon)">
+        <span class="text-center poke-link">{{pokemon.name | titlecase}}</span>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,28 @@
+div.poke-search-container form.search-form{
+    padding: 25px;
+}
+
+div.poke-search-container form.search-form div.form-group input.form-control-search{
+    background-color: rgba(121,121,121,0.55);
+    border: medium none;
+    border-radius: 30px;
+    box-shadow: 0 0 0;
+    color: #FFFFFF;
+    display: block;
+    font-size: 20px;
+    font-weight: 400;
+    height: 50px;
+    line-height: 1.42857;
+    padding: 6px 20px;
+    transition: background-color .2s;
+}
+
+div.poke-search-container form.search-form div.form-group input.form-control-search:focus{
+    background-color: rgba(0,0,0,0.3);
+    border: none;
+}
+
+div.poke-search-container form.search-form div.form-group input.form-control-search::placeholder{
+    color: #cccccc;
+    font-weight: 400;
+}

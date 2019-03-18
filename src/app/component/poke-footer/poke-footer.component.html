@@ -1,0 +1,13 @@
+<footer class="poke-footer page-footer font-small unique-color-dark pt-4" *ngIf="!isViewingPoke">
+  <div class="container no-select">
+    <ul class="list-unstyled list-inline text-center py-2">
+      <li class="list-inline-item" (click)="previousTrigger()">
+        <h5 class="mb-1" [ngClass]="{'has-page' : hasPrevious}">< Anterior</h5>
+      </li>
+      
+      <li class="list-inline-item" (click)="nextTrigger()">
+        <h5 class="mb-1" [ngClass]="{'has-page' : hasNext}">Proximo ></h5>
+      </li>
+    </ul>
+  </div>
+</footer>
