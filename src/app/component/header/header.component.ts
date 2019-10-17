@@ -15,8 +15,8 @@ export class HeaderComponent implements OnInit {
 
   ngOnInit() {
     this.topBarText = 'fwagner13 on GitHub';
-    this.title = 'The TOTVS Pokémon Challenge';
-    this.subtitle = 'Uma busca paginada pelo incrível mundo Pokémon!';
+    this.title = 'Pokémon Challenge Finder';
+    this.subtitle = 'Uma busca de Pokémons paginada.';
   }
 
 }
