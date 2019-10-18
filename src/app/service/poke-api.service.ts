@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient} from '@angular/common/http';
 
-const API_LIMIT = 40;
+const API_LIMIT = 20;
 
 @Injectable({
   providedIn: 'root'
